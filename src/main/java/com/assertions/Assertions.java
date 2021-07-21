@@ -32,7 +32,7 @@ public class Assertions {
 		String[] a2 = { "A", "B" };
 		
 		assertTrue(4 > 0);
-		assertFalse(5 < 1);
+		assertTrue(5 < 1);
 		assertNull(str);
 		assertNotNull(str2);
 		
